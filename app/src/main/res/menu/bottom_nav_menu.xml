@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/wifiFragment"
+        android:title="HOme_Wifi"
+        android:icon="@drawable/wifi_icon"
+        />
+    <item
+        android:id="@+id/flashFragment"
+        android:title="Flashlight"
+        android:icon="@drawable/flash_icon"
+        />
+    <item
+        android:id="@+id/blueFragment"
+        android:title="Bluetooth"
+        android:icon="@drawable/blue_icon"
+        />
+    <item
+        android:id="@+id/airFragment"
+        android:title="Airplane mode"
+        android:icon="@drawable/air_icon"
+        />
+    <item
+        android:id="@+id/brilloFragment"
+        android:title="Brightness"
+        android:icon="@drawable/brillo_icon"
+        />
+    <item
+        android:id="@+id/ringFragment"
+        android:title="Ring"
+        android:icon="@drawable/ring_icon"
+        />
+
+
+
+</menu>

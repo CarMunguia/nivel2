@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.nivel2.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/wifiFragment"
+        android:name="com.example.nivel2.WifiFragment"
+        android:label="fragment_wifi"
+        tools:layout="@layout/fragment_wifi" />
+    <fragment
+        android:id="@+id/blueFragment"
+        android:name="com.example.nivel2.BlueFragment"
+        android:label="fragment_blue"
+        tools:layout="@layout/fragment_blue" />
+    <fragment
+        android:id="@+id/brilloFragment"
+        android:name="com.example.nivel2.BrilloFragment"
+        android:label="fragment_brillo"
+        tools:layout="@layout/fragment_brillo" />
+    <fragment
+        android:id="@+id/flashFragment"
+        android:name="com.example.nivel2.FlashFragment"
+        android:label="fragment_flash"
+        tools:layout="@layout/fragment_flash" />
+    <fragment
+        android:id="@+id/airFragment"
+        android:name="com.example.nivel2.AirFragment"
+        android:label="fragment_air"
+        tools:layout="@layout/fragment_air" />
+    <fragment
+        android:id="@+id/ringFragment"
+        android:name="com.example.nivel2.RingFragment"
+        android:label="fragment_ring"
+        tools:layout="@layout/fragment_ring" />
+</navigation>
